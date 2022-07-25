@@ -1,4 +1,4 @@
-﻿namespace TestsFor
+﻿namespace TestsFor.NUnit
 {
     /// <summary>
     ///     A lightweight BDD-style base class for tests for a given type.

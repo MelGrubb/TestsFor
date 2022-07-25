@@ -1,6 +1,9 @@
 ﻿using NUnit.Framework;
 using Shouldly;
+using TestsFor.NUnit;
 using TestsFor.UnitTests.Model;
+
+// ReSharper disable InconsistentNaming
 
 namespace TestsFor.UnitTests.Tests
 {

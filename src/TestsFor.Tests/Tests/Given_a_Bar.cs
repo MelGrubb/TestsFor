@@ -2,7 +2,10 @@
 using NUnit.Framework;
 using Shouldly;
 using TestsFor.Core.Extensions;
+using TestsFor.NUnit;
 using TestsFor.UnitTests.Model;
+
+// ReSharper disable InconsistentNaming
 
 namespace TestsFor.UnitTests.Tests
 {
@@ -21,6 +24,7 @@ namespace TestsFor.UnitTests.Tests
         [Test]
         public void Then_Baz_has_been_mocked()
         {
+            SUT.Baz.ShouldNotBeNull();
             SUT.Baz.ShouldBeAssignableTo<IBaz>();
             SUT.Baz.ShouldBeSameAs(GetMockFor<IBaz>().Object);
         }
@@ -28,7 +32,7 @@ namespace TestsFor.UnitTests.Tests
         [Test]
         public void Then_Baz_Name_should_be_BAZ()
         {
-            SUT.Baz.Name.ShouldBe("BAZ!");
+            SUT.Baz!.Name.ShouldBe("BAZ!");
         }
 
         [Test]

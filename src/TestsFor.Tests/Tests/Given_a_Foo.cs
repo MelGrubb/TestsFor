@@ -1,10 +1,10 @@
 ﻿using ExpectedObjects;
 using NUnit.Framework;
 using Shouldly;
-using TestsFor.Extensions;
-using TestsFor.Tests.Model;
+using TestsFor.Core.Extensions;
+using TestsFor.UnitTests.Model;
 
-namespace TestsFor.Tests.Tests
+namespace TestsFor.UnitTests.Tests
 {
     [TestFixture]
     internal class Given_a_Foo : TestsFor<Foo>

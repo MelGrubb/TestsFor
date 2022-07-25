@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
 using Shouldly;
-using TestsFor.Tests.Model;
+using TestsFor.UnitTests.Model;
 
-namespace TestsFor.Tests.Tests
+namespace TestsFor.UnitTests.Tests
 {
     [TestFixture]
     internal class Given_a_User : TestsFor<User>

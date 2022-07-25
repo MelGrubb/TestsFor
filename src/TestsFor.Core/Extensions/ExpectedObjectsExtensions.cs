@@ -1,6 +1,6 @@
 ﻿using ExpectedObjects;
 
-namespace TestsFor.Extensions
+namespace TestsFor.Core.Extensions
 {
     // ReSharper disable once IdentifierTypo
     public static class ExpectedObjectsExtensions

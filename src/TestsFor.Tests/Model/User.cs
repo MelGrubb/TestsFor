@@ -1,4 +1,4 @@
-﻿namespace TestsFor.Tests.Model
+﻿namespace TestsFor.UnitTests.Model
 {
     public class User
     {

@@ -1,6 +1,6 @@
 [![Nuget](https://img.shields.io/nuget/dt/buildergenerator)](https://www.nuget.org/packages/BuilderGenerator/)
 [![GitHub](https://img.shields.io/github/license/melgrubb/TestsFor)](https://opensource.org/licenses/MIT)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/MelGrubb/TestsFor/ci)](https://github.com/MelGrubb/TestsFor/actions/workflows/ci.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/MelGrubb/TestsFor/CI)](https://github.com/MelGrubb/TestsFor/actions/workflows/ci.yml)
 [![GitHub issues](https://img.shields.io/github/issues/melgrubb/TestsFor)](https://github.com/MelGrubb/TestsFor/issues)
 
 # TestsFor

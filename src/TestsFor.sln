@@ -7,11 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsFor.UnitTests", "Tests
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsFor.NUnit", "TestsFor.NUnit\TestsFor.NUnit.csproj", "{76C2F0DF-EADA-4CB2-A4B8-C4E1885D7AA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsFor.Core", "TestsFor.Core\TestsFor.Core.csproj", "{8979210D-A4ED-4645-8BDA-A945EB367065}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsFor.Core", "TestsFor.Core\TestsFor.Core.csproj", "{8979210D-A4ED-4645-8BDA-A945EB367065}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{924C474C-BA77-4089-937A-A34258A02C81}"
 	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
 		Directory.Build.props = Directory.Build.props
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{1608429C-0765-49A2-9C53-E941FB11A402}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{DF83F4D5-3FCC-4B35-A76B-060877D6E8BC}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\ci.yml = ..\.github\workflows\ci.yml
 	EndProjectSection
 EndProject
 Global
@@ -35,6 +45,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1608429C-0765-49A2-9C53-E941FB11A402} = {924C474C-BA77-4089-937A-A34258A02C81}
+		{DF83F4D5-3FCC-4B35-A76B-060877D6E8BC} = {1608429C-0765-49A2-9C53-E941FB11A402}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FD2FCE-A9CE-42BF-A0C5-7C57D27575A7}

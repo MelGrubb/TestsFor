@@ -1,6 +1,6 @@
-[![GitHub](https://img.shields.io/github/license/melgrubb/TestsFor)](https://opensource.org/licenses/MIT)
-[![GitHub issues](https://img.shields.io/github/issues/melgrubb/TestsFor)](https://github.com/MelGrubb/TestsFor/issues)
-[![CI](https://github.com/MelGrubb/TestsFor/actions/workflows/ci.yml/badge.svg)](https://github.com/MelGrubb/TestsFor/actions/workflows/ci.yml)
+[![GitHub](https://img.shields.io/github/license/melgrubb/testsfor)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/melgrubb/festsfor)](https://github.com/MelGrubb/TestsFor/issues)
+[![CI](https://github.com/MelGrubb/testsfor/actions/workflows/ci.yml/badge.svg)](https://github.com/MelGrubb/TestsFor/actions/workflows/ci.yml)
 [![Discord](https://img.shields.io/discord/813785114722697258?logo=discord&logoColor=white)](https://discord.com/channels/813785114722697258/1100247905094340729)
 
 # TestsFor
